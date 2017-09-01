@@ -1,0 +1,277 @@
+html, body{
+	font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+  	overflow-x: hidden;
+	background:#FFFFFF;
+}
+.navbar-top{
+	padding-top:15px;
+	border-radius: 0px !important;
+}
+.logo-home{
+	width:400px;
+}
+.project-dec{
+	padding-top:5px;
+	font-size: 20px;
+
+}
+.Project-details{
+	padding-top: 10px;
+}
+.signout{
+	padding-right: 10px;
+}
+.form-cus{
+	width: 100%!important;
+}
+.navbar-cus{
+		background:#a7a4a4!important;
+		border-color:#a7a4a4!important;
+		border-radius: 0px !important;
+		padding-top:10px;
+		margin-bottom:0px;
+}
+.navbar-cus-3{
+	background:#eee!important;
+	border-color:#eee!important;
+	top:0;
+	border-radius: 0px !important;
+	padding-top:10px;
+}
+.fa{
+	font-size: 20px !important;
+}
+.button-refresh{
+	background: transparent;
+	border:none;
+}
+.navbar li a {
+	color: #777;
+}
+.navbar-cus li a {
+	color: #fff;
+}
+.navbar-cus-3 li a {
+	color: #777;
+}
+.nav-pills-cus>li>a {
+height:80px !important;
+}
+
+.tab1 a{
+	background: rgb(205, 133, 63) !important;
+	border-radius: 0px !important;
+	color: #fff;
+}
+
+.nav-pills-cus .tab1.active::after {
+	content: "";
+	position: absolute;
+	bottom: -15px;
+	left: 50px;
+	border-width: 15px 15px 0;
+	border-style: solid;
+	border-color: rgb(205, 133, 63) transparent;
+	display: block;
+	width: 0;
+	}
+		
+.tab2 a{
+	background: rgb(246, 201, 97) !important;
+	border-radius: 0px !important;
+	color: #fff;
+	margin-left: 5px;
+}
+.nav-pills-cus .tab2.active::after {
+	content: "";
+	position: absolute;
+	bottom: -15px;
+	left: 50px;
+	border-width: 15px 15px 0;
+	border-style: solid;
+	border-color: rgb(246, 201, 97) transparent;
+	display: block;
+	width: 0;
+	}
+.tab3 a{
+	background: rgb(126, 44, 11) !important;
+	border-radius: 0px !important;
+	color: #fff;
+	margin-left: 5px;
+}
+.nav-pills-cus .tab3.active::after {
+	content: "";
+	position: absolute;
+	bottom: -15px;
+	left: 50px;
+	border-width: 15px 15px 0;
+	border-style: solid;
+	border-color: rgb(126, 44, 11) transparent;
+	display: block;
+	width: 0;
+	}
+	
+.tab4 a{
+	background: rgb(62, 24, 6) !important;
+	border-radius: 0px !important;
+	color: #fff;
+	margin-left: 5px;
+}
+.nav-pills-cus .tab4.active::after {
+	content: "";
+	position: absolute;
+	bottom: -15px;
+	left: 50px;
+	border-width: 15px 15px 0;
+	border-style: solid;
+	border-color:rgb(62, 24, 6) transparent;
+	display: block;
+	width: 0;
+	}
+.background-border{
+	border:1px solid #ccc;
+	border-radius:15px;
+	margin-top: 2%;
+}
+.total-num{
+	font-size: 60px;
+}
+.dark-blue{
+	color: #010B1E;
+	font-weight: 900;
+}
+.dark-pink{
+	color: #89246D;
+	font-weight: 900;
+}
+.text-note{
+	font-size: 15px;
+	margin-top: 2%;
+	padding-right: 4%;
+}
+.project-status{
+	background: #9a9696;
+	padding: 10px 0px 30px 0px;
+}
+.Project-status-head{
+	font-weight: 900;
+	text-transform: uppercase;
+}
+.fa-info-circle{
+	color: #ffffff;
+}
+ul.list-group:after {
+	clear: both;
+	display: block;
+	content: "";
+  }
+  
+  .list-group-item {
+	  float: left;
+	  border:0px;
+	  padding: 10px 5px;
+	  font-size: 15px;
+  }
+  .green{
+	  color: #0E5E0E;
+  }
+  .yellow{
+	  color: #E5D85B;
+  }
+  .red{
+	color: #bf0303;
+}
+  .fa-square{
+	 font-size: 15px !important;
+
+  }
+  .org-color{
+color: #9898DB;
+  }
+  .riv-color{
+	  color: #000000;
+	  padding-left: 10px;
+  }
+  .main-right{
+	  margin-top:2%;
+  }
+  .main-dropdown-price{
+	  background: #eeeeee;
+	  height: 35px;
+	  border-bottom:2px solid rgba(154, 150, 150, 0.62);
+	  border-top: 2px solid rgba(154, 150, 150, 0.62);
+  }
+  .form-cus-new{
+	  background: transparent;
+	  border:0;
+	  box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
+  }
+  .project-name{
+	  padding-top: 5px;
+  }
+  .progress-1{
+	background: #bf0303;
+	height: 40px !important;
+	border-top:10px solid #9898DB;
+	border-bottom:10px solid #9898DB;
+	opacity: 0.8;	
+  }
+  .progress-height{
+	height:40px;
+	box-shadow: inset 0 0px 0px rgba(0,0,0,.1);
+	background: transparent;
+	border-radius: 0px;
+  }
+  .progress-bar{
+	text-align: right;
+	right: 5px;
+  }
+  .progress-2{
+	background: #bf0303;
+	height: 20px !important;
+	margin-top:10px;
+  }
+  .progress-3{
+	background: #0E5E0E;
+	height: 40px !important;
+	border-top:10px solid #9898DB;
+	border-bottom:10px solid #9898DB;
+	opacity: 0.8;
+	border-right:10px solid #9898DB;
+	
+  }
+
+  .progress-4{
+	background: #0E5E0E;
+	height: 20px !important;
+	margin-top:10px;
+	
+  }
+  .progress-5{
+	background: #E5D85B;
+	height: 40px !important;
+	border-top:10px solid #9898DB;
+	border-bottom:10px solid #9898DB;
+  }
+
+  .progress-6{
+	background: #E5D85B;
+	height: 20px !important;
+	margin-top:10px;
+  }
+  .progress-bar-division{
+	padding-top:6%;
+  }
+ .abs-point{
+	 text-align-last: right;
+	 border-bottom: 2px dashed  red;
+	 width: 10%;
+	 float: right;
+ }
+ .fin-progress{
+	background: #0497AE;
+ }
+  .fin-progress-2{
+	  background: #696464;
+  }
