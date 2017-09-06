@@ -452,33 +452,23 @@ th {
 			background: #337ab7 !important;
 			color: #fff;
 		}
-
-		@media( max-width : 585px ) {
-		
-			.wizard {
-				width: 90%;
-				height: auto !important;
-			}
-		
-			span.round-tab {
-				font-size: 16px;
-				width: 50px;
-				height: 50px;
-				line-height: 50px;
-			}
-		
-			.wizard .nav-tabs > li a {
-				width: 50px;
-				height: 50px;
-				line-height: 50px;
-			}
-		
-			.wizard li.active:after {
-				content: " ";
-				position: absolute;
-				left: 35%;
-			}
-		}
+.nav-list{
+	background: #595B59;
+}
+.nav-list li a{
+	color: #fff;
+}
+.tab-content{
+	padding-top:2%;
+}
+.table>.background-thead-warning>tr>th {	
+	background: #f0ad4e !important;
+	color: #fff;
+}	
+.button-purple{
+	background: #7035D7 !important;
+	color: #fff !important;
+}
   @media screen and (max-width:768px){
 	.right-section-app {margin-top:80%;}
 
@@ -510,4 +500,3 @@ th {
     margin-bottom: 6%;
 }
 }
-
